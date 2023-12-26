@@ -1,0 +1,13 @@
+remote:
+  git_url: https://github.com/nachtjasmin/githooks
+pre-commit:
+  parallel: true
+  commands:
+    govet:
+      files: git ls-files -m
+      glob: "*.go"
+      run: go vet {files}
+    gofmt:
+      stage_fixed: true
+      glob: "*.go"
+      run: "gofumpt -w {staged_files}"

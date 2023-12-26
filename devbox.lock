@@ -1,0 +1,85 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "go_1_21@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#go_1_21",
+      "source": "devbox-search",
+      "version": "1.21.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/s1xk6hrfn0kw8ycvqbx4vv4gr00k6qpl-go-1.21.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/id3ygqxp1hvbh7dyjlwngx53fvcpqg84-go-1.21.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/yn0g820ayb963s0i4nnw9pf72l49kkg0-go-1.21.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/pvvv2lmx9m8b2n0447mljrl5xmla8r3h-go-1.21.1"
+        }
+      }
+    },
+    "gofumpt@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#gofumpt",
+      "source": "devbox-search",
+      "version": "0.3.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/zz2csqivj8mlqxl9w0720w77rxaavmr5-gofumpt-0.3.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/2iczlxbj58s1agc3fg6wksw44ixlr9qr-gofumpt-0.3.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/fb0bqmvym8l9xvv4651zn2wsr2dslc6p-gofumpt-0.3.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/03y0iladpwwzvvg5ihp6kp3411xm932i-gofumpt-0.3.1"
+        }
+      }
+    },
+    "gopls@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#gopls",
+      "source": "devbox-search",
+      "version": "0.14.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/xq4v9jghnda9fqqc3jyhfdqww8a9cyp5-gopls-0.14.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/dm56l1ylb5yjzs8rhh29wll18kj5j5cw-gopls-0.14.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/6nlq3403zsmkmsmy2vbm4zic4k5l542i-gopls-0.14.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/rs4d9lb0lj16zc7khxx3vyw421a23kns-gopls-0.14.2"
+        }
+      }
+    },
+    "lefthook@latest": {
+      "last_modified": "2023-12-18T02:58:18Z",
+      "resolved": "github:NixOS/nixpkgs/ca16221251951e9c6261a1a2bb4f9389038d3632#lefthook",
+      "source": "devbox-search",
+      "version": "1.5.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/vy9kz2bl9s7qd9ckj7nhnsqjsd8fynvv-lefthook-1.5.5"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/1h69179chpw8vq99gvcjgvfsqb337yjq-lefthook-1.5.5"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/h8422z1x3w3c9gfmdnspir4dkji7j43f-lefthook-1.5.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/ixrczihi160f0b8qlw15hb8q7hp6shpp-lefthook-1.5.5"
+        }
+      }
+    }
+  }
+}
